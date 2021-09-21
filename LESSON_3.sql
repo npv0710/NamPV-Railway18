@@ -71,7 +71,8 @@ CREATE TABLE items (
 	headquarters_phone_number CHAR(15)
 );
 
-
+INSERT INTO items (item_code, item, unit_price, company, headquarters_phone_number)
+	VALUE();
 
 
 
