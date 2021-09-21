@@ -72,7 +72,7 @@ CREATE TABLE items (
 );
 
 INSERT INTO items (item_code, item, unit_price, company, headquarters_phone_number)
-	VALUE();
+	VALUE('D_2', 'HeadPhone', 60, 4, 'Company D', '+1(618)369-7392');
 
 
 
