@@ -72,7 +72,7 @@ CREATE TABLE items (
 );
 
 INSERT INTO items (item_code, item, unit_price, company, headquarters_phone_number)
-	VALUE();
+	VALUE('B_3', 'Mouse Bluetooth', 80, 2, 'Company B', '+1(202)555-0152');
 
 
 
