@@ -61,8 +61,18 @@ INSERT INTO sales (date_of_purchase, customer_id, item_code)
 	VALUE 	('2018-08-08', 4, 'B_2')
 ;
 
+DROP TABLE IF EXISTS items;
 
+CREATE TABLE items (
+	item_code CHAR(3) PRIMARY  KEY,
+	item VARCHAR(50) NOT NULL,
+	unit_price INT,
+	company VARCHAR(50) NOT NULL,
+	headquarters_phone_number CHAR(15)
+);
 
+INSERT INTO items (item_code, item, unit_price, company, headquarters_phone_number)
+	VALUE('D_2', 'HeadPhone', 60, 4, 'Company D', '+1(618)369-7392');
 
 
 
